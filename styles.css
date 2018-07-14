@@ -1,17 +1,17 @@
 :root {
-  --base: #bada55;
-  --spacing: 10px;
+  --borderSize: 10px;
   --blur: 10px;
+  --borderColor: #bada55;
 }
 
 img {
-  padding: var(--spacing);
-  backbround: var(--base);
-  filter: var(--blur);
+  padding: var(--borderSize);
+  filter: blur(var(--blur));
+  background: var(--borderColor);
 }
 
 .highlighter {
-  color: var(--base);
+  color: var(--borderColor);
 }
 
 body {
@@ -23,7 +23,7 @@ body {
   font-size: 50px;
 }
 
-.controls {
+.options {
   margin-bottom: 50px;
 }
 
