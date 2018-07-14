@@ -1,3 +1,19 @@
+:root {
+  --base: #bada55;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  padding: var(--spacing);
+  backbround: var(--base);
+  filter: var(--blur);
+}
+
+.highlighter {
+  color: var(--base);
+}
+
 body {
   text-align: center;
   background: navy;
